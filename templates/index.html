@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    {% block ad %}
+        {% include 'ad_one.html' %}
+    {% endblock ad%}
+
+        <br>
+
+    {% block adTWO %}
+        {% include 'ad_two.html' %}
+    {% endblock adTWO %}
+
+        <br>
+
+    {% block adTHREE %}
+        {% include 'ad_three.html' %}
+    {% endblock adTHREE %}
+
+        <br>
+
+    {% block adFOUR %}
+        {% include 'last_ad.html' %}
+    {% endblock adFOUR %}
+
+    <p style="width: 400px; margin: auto; text-align: center;">*At participating stores.</p>
+    <hr>
+    <br>
+
+    {% block firstFooter %}
+        {% include 'first_footer.html' %}
+    {% endblock firstFooter %}
+
+
+
+
+
+
+{% endblock content %}
